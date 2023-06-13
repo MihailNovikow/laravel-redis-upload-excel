@@ -1,7 +1,10 @@
 <?php
 
 return [
-
+'basic' => [
+        'login' => env('auth.login', 'login'),
+        'password' => env('auth.password', 'password')
+    ],
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
